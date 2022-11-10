@@ -12,10 +12,10 @@ app.listen(port, () => {
 })
 
 const todos = [
-    { id: 1, text: "Brush teeth", completed: false },
-    { id: 2, text: "Pet dog", completed: false },
-    { id: 3, text: "Make Coffee", completed: false },
-    { id: 4, text: "Write code", completed: false }
+    { id: 1, email: "nethog@hot.ee", username:"hogwards", password:"AssaVana112!@"},
+    { id: 2, email: "rusty@hot.ee", username:"rustycar", password:"AssaVana911!@"},
+    { id: 3, email: "laulumiis@hot.ee", username:"laulumiis", password:"AssaVana007!@"},
+    { id: 4, email: "apple@hot.ee", username:"applejuice", password:"AssaVana003!@"},
 
 ]
 
