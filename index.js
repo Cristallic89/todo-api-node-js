@@ -87,6 +87,7 @@ app.delete('/todos/:id', function (req, res) {
         return todo.id == req.params.id
     });
 
+
     todos.splice(index, 1);
 
     //  Return the response
