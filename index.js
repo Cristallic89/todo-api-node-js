@@ -16,7 +16,8 @@ const todos = [
     { id: 2, email: "rusty@hot.ee", username:"rustycar", password:"AssaVana911!@"},
     { id: 3, email: "laulumiis@hot.ee", username:"laulumiis", password:"AssaVana007!@"},
     { id: 4, email: "apple@hot.ee", username:"applejuice", password:"AssaVana003!@"},
-
+    { id: 5, email: "animatrix@hot.ee", username:"animan", password:"AssaVana005!@"},
+    { id: 6, email: "rockyb@hot.ee", username:"balboa", password:"AssaVana123!@"},
 ]
 
 
