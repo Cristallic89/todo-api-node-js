@@ -48,7 +48,6 @@ app.post('/users/', function (req, res) {
 
 app.put('/users/', function (req, res) {
 
-    //  Find the user to update by ID
     let userToUpdate = users.find((user) => {
         return user.id === req.body.id
     })
@@ -63,7 +62,6 @@ app.put('/users/', function (req, res) {
 
 app.delete('/users/:id', function (req, res) {
 
-    //  Find the index of that user to update.
     let index = users.findIndex((user) => {
         return user.id === req.params.id
 
